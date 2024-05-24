@@ -1,4 +1,4 @@
-# Qt Firebird driver build script
+# Qt build Firebird driver
 This explains how to build Qt's Firebird database driver for Windows
 1. You must install required version of firebird (In my case Firebird 3.0).
 2. You must copy your firebird installation content to some simple path witout spaces (I have copied it to "C:\interbase\").
