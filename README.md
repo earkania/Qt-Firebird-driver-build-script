@@ -18,5 +18,6 @@ qt-cmake -G Ninja C:/Qt/6.7.1/Src/qtbase/src/plugins/sqldrivers -DCMAKE_INSTALL_
 cmake --build .
 cmake --install .
 </code>
+
 When everyting is done in the folder "C:\Qt\6.7.1\mingw_64\build-sqldrivers\plugins\sqldrivers" you will find file "qsqlibase.dll". This is the driwer you need. Then you need to copy this file to the folder "C:\Qt\6.7.1\mingw_64\plugins\sqldrivers". 
 Congratulations now you can connect to firebird databases.
